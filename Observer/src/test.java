@@ -7,11 +7,10 @@ public class test {
 		
 		g.addPupil("Julia");
 		g.addPupil("Martin");
-		g.notifyObserver();
 		g.addPupil("Haris");
 		g.addPupil("Kevin");
 		g.addPupil("Simon");
-		g.notifyObserver();
+
 		
 	}
 

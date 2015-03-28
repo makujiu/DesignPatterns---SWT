@@ -1,0 +1,9 @@
+Beim Observer-Muster hat ein Subject (oder auch Publisher) mehrere Observer,
+die vom Subject informiert werden, wenn das Subject irgendwelche Änderungen vornimmt.
+
+Hab es am Beispiel Klassenzimmer dargestellt, 
+eine (Schul)Klasse hat mehrere Schüler , und das Klassenzimmer bekommt Observer(in der Realität kann es z.B. die Schulverwaltung sein).
+Sobald eine Klasse einen Schüler mehr bekommt, werden alle registrierten Observer informiert.
+
+Classroom= subject
+pupilObserver = Observer

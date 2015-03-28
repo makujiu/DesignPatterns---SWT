@@ -8,6 +8,7 @@ public class classroom implements Subject{
 	
 	public void addPupil(String name){
 		pupilList.add(name);
+		notifyObserver();
 	}
 	public List<String> getPupils(){
 		return pupilList;
