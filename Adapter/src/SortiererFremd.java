@@ -6,9 +6,7 @@ public class SortiererFremd {
 
 	List<Integer> sortierteZahlen(List<Integer> zahlenListe)
 	{
-		Iterator<Integer> it = zahlenListe.iterator();
-		
-		return zahlenListe;
+		//Sortier-Algorithmus
 		
 	}
 }
