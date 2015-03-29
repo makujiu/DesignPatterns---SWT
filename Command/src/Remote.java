@@ -5,7 +5,7 @@ public class Remote {
 		tvOnCommand onButton = new tvOnCommand(TV);
 		tvOffCommand offButton = new tvOffCommand(TV);
 		onButton.execute();
-		onButton.execute();
+		offButton.execute();
 		
 	}
 
