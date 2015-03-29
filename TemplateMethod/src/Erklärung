@@ -1,0 +1,13 @@
+Template design pattern(Deutsch: Schablonendesign pattern)
+
+Dieses Designpattern verwendet man, wenn man mehrere Klassen hat,
+die sich ähneln, jedoch minimal unterschiedliche Funktionsweisen/Attribute haben.
+Man erstellt eine (abstrakte!) Template Klasse, die Schablone, und definiert dort alle Methoden/Funktionalitäten,
+die jede der ähnlichen Klassen später teilen. Die Methoden, die von den Klassen unterschiedlich implementiert werden,
+werden als abstrakt definiert.
+
+In diesem Beispiel habe ich eine Speisekarte genommen,
+vegetarische Speisekarten und nicht-vegetarische Speisekarten haben eins Gemeinsam:
+die Getränkeliste. Die Speisen jedoch sind unterschiedlich, also muss jede Speisekarte eine eigene Speiseliste definieren,
+die Struktur der Speiseliste jedoch bleibt immer gleich. Damit wir auch sicherstellen, dass die Funktionsweisen der Klassen
+nicht voneinander abweichen, lassen wir beide Klassen von der Schablone (essenskarteTemplate) erben.

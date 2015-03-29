@@ -15,6 +15,7 @@ public class pupilObserver implements Observer{
 		System.out.println();
 		register(this);
 		pupilList = cr.getPupils();
+		
 	
 		
 	

@@ -10,11 +10,7 @@ public class CarFactory implements AbstractVehicleFactory{
 	
 	public void createMarke(String mark){
 		marke = mark;
-		if(marke.startsWith("A") || marke.startsWith("E") || marke.startsWith("i") || marke.startsWith("o") || marke.startsWith("u"))
-		{
-			System.out.println("oh it's an " + marke);
-		}
-		else System.out.println("Oh it's a " + marke);
+		System.out.println("Oh it's a " + marke);
 	}
 	@Override
 	public void setWheels(int amountOFWheels) {

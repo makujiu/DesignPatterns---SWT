@@ -4,9 +4,7 @@ public class Remote {
 		Device TV = new TV();
 		tvOnCommand onButton = new tvOnCommand(TV);
 		tvOffCommand offButton = new tvOffCommand(TV);
-		offButton.execute();
 		onButton.execute();
-		offButton.execute();
 		onButton.execute();
 		
 	}
