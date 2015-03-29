@@ -6,9 +6,15 @@ abstract class Animal {
 	String food;
 	IFliegen flugtyp;
 	
-	public void setHeight(){}
-	public void setWeight(){}
-	public void setName(){}
+	public void setHeight(){
+		// blabla 
+	}
+	public void setWeight(){
+		//blabla
+	}
+	public void setName(){
+		//blabla
+	}
 	public void setFlugtyp(IFliegen flugtyp){
 		this.flugtyp = flugtyp;
 	}
